@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453BB78A1C52425900D1074F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453BB7891C52425900D1074F /* WebViewController.swift */; };
+		454DEE671C5A1E2D0034F9B8 /* MyURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DEE661C5A1E2D0034F9B8 /* MyURLProtocol.swift */; };
+		455C629D1C523EF900BC18C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C629C1C523EF900BC18C8 /* AppDelegate.swift */; };
+		455C629F1C523EF900BC18C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C629E1C523EF900BC18C8 /* ViewController.swift */; };
+		455C62A21C523EF900BC18C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455C62A01C523EF900BC18C8 /* Main.storyboard */; };
+		455C62A41C523EF900BC18C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455C62A31C523EF900BC18C8 /* Assets.xcassets */; };
+		455C62A71C523EF900BC18C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455C62A51C523EF900BC18C8 /* LaunchScreen.storyboard */; };
+		875EE23322E4ED2DC00D0076 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFEBBC50287C9DC1666F52D /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		453BB7891C52425900D1074F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		454DEE661C5A1E2D0034F9B8 /* MyURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyURLProtocol.swift; sourceTree = "<group>"; };
+		455C62991C523EF900BC18C8 /* EnvatoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvatoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455C629C1C523EF900BC18C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455C629E1C523EF900BC18C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		455C62A11C523EF900BC18C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455C62A31C523EF900BC18C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455C62A61C523EF900BC18C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455C62A81C523EF900BC18C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584BF50672007E51556EE699 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6E622AD9DF53248366A6EF17 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BEFEBBC50287C9DC1666F52D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455C62961C523EF900BC18C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875EE23322E4ED2DC00D0076 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3271B2C513D14CAC3A77829F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEBBC50287C9DC1666F52D /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		455C62901C523EF900BC18C8 = {
+			isa = PBXGroup;
+			children = (
+				455C629B1C523EF900BC18C8 /* EnvatoTest */,
+				455C629A1C523EF900BC18C8 /* Products */,
+				8090240EDB65E1F36BB1322D /* Pods */,
+				3271B2C513D14CAC3A77829F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		455C629A1C523EF900BC18C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455C62991C523EF900BC18C8 /* EnvatoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455C629B1C523EF900BC18C8 /* EnvatoTest */ = {
+			isa = PBXGroup;
+			children = (
+				453BB7891C52425900D1074F /* WebViewController.swift */,
+				455C629C1C523EF900BC18C8 /* AppDelegate.swift */,
+				455C629E1C523EF900BC18C8 /* ViewController.swift */,
+				455C62A01C523EF900BC18C8 /* Main.storyboard */,
+				455C62A31C523EF900BC18C8 /* Assets.xcassets */,
+				455C62A51C523EF900BC18C8 /* LaunchScreen.storyboard */,
+				455C62A81C523EF900BC18C8 /* Info.plist */,
+				454DEE661C5A1E2D0034F9B8 /* MyURLProtocol.swift */,
+			);
+			path = EnvatoTest;
+			sourceTree = "<group>";
+		};
+		8090240EDB65E1F36BB1322D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E622AD9DF53248366A6EF17 /* Pods.debug.xcconfig */,
+				584BF50672007E51556EE699 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455C62981C523EF900BC18C8 /* EnvatoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455C62AB1C523EF900BC18C8 /* Build configuration list for PBXNativeTarget "EnvatoTest" */;
+			buildPhases = (
+				49D60074CB7E6FC5A043C3F7 /* Check Pods Manifest.lock */,
+				455C62951C523EF900BC18C8 /* Sources */,
+				455C62961C523EF900BC18C8 /* Frameworks */,
+				455C62971C523EF900BC18C8 /* Resources */,
+				7A81A8C7C3D49F8C4F28FFCB /* Embed Pods Frameworks */,
+				BDEDF8977437574969EC8C94 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnvatoTest;
+			productName = EnvatoTest;
+			productReference = 455C62991C523EF900BC18C8 /* EnvatoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455C62911C523EF900BC18C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = treedeo;
+				TargetAttributes = {
+					455C62981C523EF900BC18C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 455C62941C523EF900BC18C8 /* Build configuration list for PBXProject "EnvatoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455C62901C523EF900BC18C8;
+			productRefGroup = 455C629A1C523EF900BC18C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455C62981C523EF900BC18C8 /* EnvatoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455C62971C523EF900BC18C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455C62A71C523EF900BC18C8 /* LaunchScreen.storyboard in Resources */,
+				455C62A41C523EF900BC18C8 /* Assets.xcassets in Resources */,
+				455C62A21C523EF900BC18C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D60074CB7E6FC5A043C3F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A81A8C7C3D49F8C4F28FFCB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDEDF8977437574969EC8C94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455C62951C523EF900BC18C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455C629F1C523EF900BC18C8 /* ViewController.swift in Sources */,
+				454DEE671C5A1E2D0034F9B8 /* MyURLProtocol.swift in Sources */,
+				453BB78A1C52425900D1074F /* WebViewController.swift in Sources */,
+				455C629D1C523EF900BC18C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		455C62A01C523EF900BC18C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455C62A11C523EF900BC18C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455C62A51C523EF900BC18C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455C62A61C523EF900BC18C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455C62A91C523EF900BC18C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		455C62AA1C523EF900BC18C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455C62AC1C523EF900BC18C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E622AD9DF53248366A6EF17 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnvatoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.treedeo.EnvatoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		455C62AD1C523EF900BC18C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584BF50672007E51556EE699 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnvatoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.treedeo.EnvatoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455C62941C523EF900BC18C8 /* Build configuration list for PBXProject "EnvatoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455C62A91C523EF900BC18C8 /* Debug */,
+				455C62AA1C523EF900BC18C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455C62AB1C523EF900BC18C8 /* Build configuration list for PBXNativeTarget "EnvatoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455C62AC1C523EF900BC18C8 /* Debug */,
+				455C62AD1C523EF900BC18C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455C62911C523EF900BC18C8 /* Project object */;
+}
